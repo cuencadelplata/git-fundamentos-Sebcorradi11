@@ -33,5 +33,5 @@ jobs:
         run: npm run build --if-present # Compila el proyecto si el script build está presente
 
       - name: Run tests
-        run: npm test # Ejecuta los tests del proyecto
+        run: npx jest # Ejecuta los tests del proyecto
 
